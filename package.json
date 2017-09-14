@@ -1,0 +1,17 @@
+{
+  "name": "js-rpg",
+  "version": "0.0.1",
+  "description": "RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "webpack src/index.js dist/bundle.js",
+    "watch": "webpack-dev-server"
+  },
+  "author": "Jeremy Gonzale <jeremy@jeremyg.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.8.0"
+  }
+}
